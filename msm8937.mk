@@ -20,8 +20,7 @@ VENDOR_PATH = device/asus/msm8937-common
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-lineage
 
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
