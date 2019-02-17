@@ -576,6 +576,13 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 
+# QC RIL
+vendor/bin/hw/qcrild
+vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
+vendor/lib64/libqcrilFramework.so
+vendor/lib64/libril-qc-hal-qmi.so
+vendor/lib64/qcrild_librilutils.so
+
 # Sensors
 vendor/bin/sensors.qti
 vendor/lib/hw/activity_recognition.msm8953.so
