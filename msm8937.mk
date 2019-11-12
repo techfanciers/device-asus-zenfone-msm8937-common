@@ -22,7 +22,8 @@ DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(VENDOR_PATH)/overlay-lineage/lineage-sdk
+    $(VENDOR_PATH)/overlay-lineage/lineage-sdk \
+    $(VENDOR_PATH)/overlay/packages/apps/Snap
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
