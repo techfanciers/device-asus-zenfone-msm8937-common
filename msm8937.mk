@@ -168,6 +168,9 @@ PRODUCT_PACKAGES += \
     libfmjni
 
 # GPS
+PRODUCT_PACKAGES += \
+    libwifi-hal-ctrl
+
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     $(VENDOR_PATH)/configs/gps/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
