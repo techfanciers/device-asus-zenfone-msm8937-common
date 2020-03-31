@@ -170,9 +170,11 @@ vendor/lib64/libsecureui.so|66befbd91628d464b71e1cd523eb111d517a5b84
 vendor/lib64/libsecureui_svcsock.so|ab9ec06666c6c63e4a30b2fe503e6088aab3629d
 vendor/lib64/libssd.so|0e988e6ef7b1d356f4b92a26a61b96a840de1d20
 
-# Gatekeeper - from tissot - V10.0.9.0.PDHMIXM
-vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|fb3693904e3b26250157ab5be21ef977971a3382
-vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|c1b386547234815a0d6116b5e4756de66075cd3f
+# Gatekeeper - from X00P - PPR1.180610.009-16.00.1906.411-20190712
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|86576b2c5abfc4e0621853c1ffe179b57b27b5dd
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|98a7de3317c0ff4af038930f00510e788db042c8
+vendor/lib64/hw/gatekeeper.msm8937.so|964f53fa236bd0e36f0aa12ebf25633bb9ad1b47
 
 # GPS - from tissot - V10.0.9.0.PDHMIXM
 vendor/bin/hw/vendor.qti.gnss@1.0-service|049201d8e22064b87eb52df208d8cda7066d140a
@@ -285,9 +287,16 @@ vendor/firmware/a530_pm4.fw|5741a28752355b478d455635bab008028ff7e1c6
 # Ipacm - from tissot - V10.0.9.0.PDHMIXM
 vendor/bin/ipacm-diag|9300f8da22941c2bfacc2ff96f83f2beebd4dcc1
 
-# Keystore - from tissot - V10.0.9.0.PDHMIXM
-vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|fdfa414efe6205bfd7750726ae730e4bd3c1ba00
-vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|f71f1439c9c356ce05d88b876253b4e3dcb10f4b
+# Keymaster - from X00P - PPR1.180610.009-16.00.1906.411-20190712
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|023a0e237fbc068a3191e91e5a1ec0ea5831d52b
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|67d06cd62466a24c4c2da707216384edd1b8ec00
+vendor/lib64/libkeymasterdeviceutils.so|3b4d1b97549b15d85254739613fc8d772f716806
+vendor/lib64/libkeymasterprovision.so|06ab53f77fd2590407d6557bd26e0c58b39d71bf
+vendor/lib64/libkeymasterutils.so|4c8273711b5ba1a503d4581f661ed20a1578810d
+
+# Keystore - from X00P - PPR1.180610.009-16.00.1906.411-20190712
+vendor/lib64/hw/keystore.msm8937.so|c9380374c921e28bef8b11b414614531bf465410
 
 # Listen - from tissot - V10.0.9.0.PDHMIXM
 vendor/lib64/hw/sound_trigger.primary.msm8953.so:vendor/lib64/hw/sound_trigger.primary.msm8937.so|857963f4e9724dd1bd2d4a4bfe28341109010e96
