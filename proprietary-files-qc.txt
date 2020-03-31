@@ -59,19 +59,6 @@ vendor/lib64/libbt-hidlclient.so|0b0b69ef9787e3cd5409f0050cad03698dd6ce26
 # Bluetooth (shared dependencies) - from tissot - V10.0.9.0.PDHMIXM
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|32dd637f377d18e862ad24be7086a71a5fe52f71
 
-# Camera firmware - from tissot - V10.0.9.0.PDHMIXM
-vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
-vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
-vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
-vendor/firmware/cpp_firmware_v1_2_0.fw|5ff0d66bcdbb29f4e924d011ae825583e48b3962
-vendor/firmware/cpp_firmware_v1_4_0.fw|11eba982212797920102912142940a9e08931c52
-vendor/firmware/cpp_firmware_v1_1_1.fw|04b8eb253d630eaeadab296e1607dc6a29d93d3c
-vendor/firmware/cpp_firmware_v1_5_1.fw|f3f622ab29a560b170d0f2c6ddec14b933f2d476
-vendor/firmware/cpp_firmware_v1_12_0.fw|de18ccdf371824059acfdf3c7754c6e1bc1c2f8c
-vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
-vendor/firmware/cpp_firmware_v1_5_2.fw|58dd7f7c09dbb62bc6f334a8885064b292610675
-vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
-
 # CNE - from tissot - V10.0.9.0.PDHMIXM
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
