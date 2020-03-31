@@ -193,6 +193,10 @@ endif
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
+# Treble
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HOSTAPD_DRIVER := NL80211
