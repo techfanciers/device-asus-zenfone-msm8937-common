@@ -18,7 +18,10 @@
 
 set -e
 
-INITIAL_COPYRIGHT_YEAR=2017
+DEVICE_COMMON=msm8937-common
+VENDOR=asus
+
+INITIAL_COPYRIGHT_YEAR=2020
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -33,11 +36,11 @@ if [ ! -f "$HELPER" ]; then
 fi
 . "$HELPER"
 
-# Initialize the helper
+# Initialize the helper for common
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
 
 # Copyright headers and guards
-write_headers "mido tissot"
+write_headers "X00P X00R"
 
 # The standard common blobs
 write_makefiles "$MY_DIR"/proprietary-files-qc.txt true

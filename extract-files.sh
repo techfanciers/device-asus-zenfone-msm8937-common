@@ -18,6 +18,9 @@
 
 set -e
 
+DEVICE_COMMON=msm8937-common
+VENDOR=asus
+
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
@@ -52,7 +55,7 @@ if [ -z "$SRC" ]; then
     SRC=adb
 fi
 
-# Initialize the helper
+# Initialize the helper for common device
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true "$CLEAN_VENDOR"
 
 extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
@@ -62,12 +65,6 @@ if [ -s "$MY_DIR"/../$DEVICE/proprietary-files.txt ]; then
     setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
     extract "$MY_DIR"/../$DEVICE/proprietary-files.txt "$SRC" "$SECTION"
-fi
-
-if [ "$DEVICE" = "mido" ]; then
-    # Hax for cam configs
-    CAMERA2_SENSOR_MODULES="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/vendor/lib/libmmcamera2_sensor_modules.so
-    sed -i "s|/system/etc/camera/|/vendor/etc/camera/|g" "$CAMERA2_SENSOR_MODULES"
 fi
 
 "$MY_DIR"/setup-makefiles.sh
