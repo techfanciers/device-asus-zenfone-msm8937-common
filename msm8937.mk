@@ -263,11 +263,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
-ifeq ($(TARGET_KERNEL_VERSION),4.9)
-PRODUCT_PACKAGES += \
-    init.msm.usb.configfs.rc
-endif
-
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh \
     init.qcom.post_boot.sh \
