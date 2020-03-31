@@ -146,6 +146,9 @@ TARGET_FS_CONFIG_GEN := $(VENDOR_PATH)/config.fs
 DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(VENDOR_PATH)/compatibility_matrix.xml
 
+# Keymaster
+TARGET_PROVIDES_KEYMASTER := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
