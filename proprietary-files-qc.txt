@@ -219,21 +219,21 @@ vendor/lib/libdpmqmihal.so|f618b7d9387d35b757377f47452f503d8b405ed9
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|25d74c0e867f023b71a7c599ab6d213c7de2725d
 
-# DRM - from tissot - V10.0.9.0.PDHMIXM
-vendor/bin/qseecomd|14eaa0752ac0eb2308708056d094a05d9e5129b8
-vendor/lib/libQSEEComAPI.so|3a4de1c673d0e196c553fbfcec0ee4a3275915af
-vendor/lib64/libGPreqcancel.so|942e96e6c1706b52e0b2f898c5947f16f8612994
-vendor/lib64/libGPreqcancel_svc.so|699c1d86af3a0fe58ff3b9cc927f001ed10ee745
-vendor/lib64/libQSEEComAPI.so|1e695dcc9197c685c294d426822d2cb4e4c9c592
-vendor/lib64/libSecureUILib.so|d1bb44ffb30ab0efbc9d05ad729bac8b71dc28f5
-vendor/lib64/libStDrvInt.so|61eb3821f61fb5b8e5a23f961111f09c93208918
-vendor/lib64/libdrmfs.so|e20cc71ac84a7998626e600f4dd9dfe356a1436a
-vendor/lib64/libdrmtime.so|4efeb1449809aa172e68fe5bf5aa68be0f21387d
-vendor/lib64/libqisl.so|54d0ba8662dcc8bb664c2acc7315fb9bfffc773f
-vendor/lib64/librpmb.so|ba775205529284dc5d2233f11462037538f763af
-vendor/lib64/libsecureui.so|66befbd91628d464b71e1cd523eb111d517a5b84
-vendor/lib64/libsecureui_svcsock.so|ab9ec06666c6c63e4a30b2fe503e6088aab3629d
-vendor/lib64/libssd.so|0e988e6ef7b1d356f4b92a26a61b96a840de1d20
+# DRM - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
+vendor/bin/qseecomd|98e59e53f6bf2e585120f07f93d1265acfa80e7b
+vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
+vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
+vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
+vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
+vendor/lib64/libSecureUILib.so|b48ed2e7cdb41d08c238a1fd171d9e7f8032516a
+vendor/lib64/libStDrvInt.so|2947474aad631d5345283e57a38003b6373b2d11
+vendor/lib64/libdrmfs.so|bcae118bb9d2b07a2dae7fdcb30196293217e9ae
+vendor/lib64/libdrmtime.so|a8b04641f437e6235b3d708fe9ba486526f91ab2
+vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
+vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050
+vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
+vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
+vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 
 # Gatekeeper - from X00P - PPR1.180610.009-16.00.1906.411-20190712
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|86576b2c5abfc4e0621853c1ffe179b57b27b5dd
@@ -709,13 +709,11 @@ vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|a574d287e7e73649685b702f4fe497eb7c6ba727
 -vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
 
-# TUI - from tissot - V10.0.9.0.PDHMIXM
-lib/vendor.qti.hardware.tui_comm@1.0.so|03a2143899def287dd48b2290f769b4eebdd61d0
-lib64/vendor.qti.hardware.tui_comm@1.0.so|886be11a566c18744db517c94e2530b68df819b6
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|86c327a8310fcc42f69c85ec0868c630903c7d79
+# TUI - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|03a2143899def287dd48b2290f769b4eebdd61d0
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|886be11a566c18744db517c94e2530b68df819b6
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|313677dd28de6f6b2a5cf8b136d8ce0723bb5a65
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b478f9ba87abd265ac15a154ab7412fed5839664
 
 # Widevine - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|e130b8f1c8d46d8a185b00cba5ff8a2a871ee94c
