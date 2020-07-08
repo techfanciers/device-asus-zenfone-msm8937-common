@@ -64,6 +64,17 @@ vendor/lib64/libbt-hidlclient.so|0b0b69ef9787e3cd5409f0050cad03698dd6ce26
 # Bluetooth (shared dependencies) - from tissot - V10.0.9.0.PDHMIXM
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|32dd637f377d18e862ad24be7086a71a5fe52f71
 
+# CDSP - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
+vendor/lib/libcdsprpc.so|583353ecd1fbca5ace190f2f5bea74b80213b371
+vendor/lib/libcdsp_default_listener.so|5c035d22a100501d090c15786ac720eecec15624
+vendor/lib/libfastrpc_utf_stub.so|c9b36aa0e4791536f1ae4e4d90820c77fc06a5bd
+vendor/lib/libsysmon_cdsp_skel.so|c81311a5c24b131c7b00c137705254e57f429368
+vendor/lib64/libcdsprpc.so|4ecf9bd3bcc7531cf636e6152157c89890b85c26
+vendor/lib64/libcdsp_default_listener.so|94792d75a16534ae766aba9c0d4a4a62782eac6d
+vendor/lib64/libfastrpc_utf_stub.so|d19ff5b0ef7506a5d28f5825547dcf235c2f8f96
+vendor/lib64/libsysmon_cdsp_skel.so|f3cb20891b795036134a659cd530287fe8c84369
+
 # CNE - from tissot - V10.0.9.0.PDHMIXM
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
