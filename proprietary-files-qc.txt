@@ -380,13 +380,23 @@ product/lib64/vendor.qti.latency@2.0.so|0144eec541989f450695ec8cbdd595df4009fe1a
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|53794a8d4dfeb0fbd233a4b128749a06d515c3f7
 vendor/lib64/vendor.qti.latency@2.0.so|0144eec541989f450695ec8cbdd595df4009fe1a
 
-# Listen - from tissot - V10.0.9.0.PDHMIXM
-vendor/lib64/hw/sound_trigger.primary.msm8953.so:vendor/lib64/hw/sound_trigger.primary.msm8937.so|857963f4e9724dd1bd2d4a4bfe28341109010e96
-vendor/lib64/vendor.qti.voiceprint@1.0.so|483d0c78115999e3f85fcb99b3b3b43a6b93c616
-vendor/lib/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.primary.msm8937.so|0e716aae6fe6fc4a8b9553953765f64614647e7d
-vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
-vendor/lib/libsmwrapper.so|58dcf09adcbe6c851417e1569a120ac2e5e64a9d
-vendor/lib/vendor.qti.voiceprint@1.0.so|2cadfc237c135f092da4d6b73ba42ba1be74167f
+# Listen - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+vendor/lib/hw/sound_trigger.primary.msm8937.so|305f7f8ba1ab05c464ef669cfaa6e5bd3432f73b
+vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
+vendor/lib/libgcs-calwrapper.so|c1e42b5db0be908052f19de3c3bfc5cee6819363
+vendor/lib/libgcs-ipc.so|33104e481daf5cf97720a6da812b09ed30aacaa1
+vendor/lib/libgcs-osal.so|5d0d7939c429a558ecb539e67bc379b417980444
+vendor/lib/libgcs.so|5f65daa6f37c21bc4dc2c7cc42caaf7d338b70e3
+vendor/lib/liblistenjni.so|131a949c9e0d0baf31e179645b7edd86876b5761
+vendor/lib/liblistensoundmodel2.so|5f533ea9a7ea488dfc9f028b9a0a478e54255dd7
+vendor/lib/libsmwrapper.so|1ab31b5378265784145defa47d50435029cf5f57
+vendor/lib64/hw/sound_trigger.primary.msm8937.so|1a55a7258b7a9f4d9521f83298baa59a9dbb23f2
+vendor/lib64/libgcs-calwrapper.so|f8ea3485465c2bde8db75e79dc668598f2984214
+vendor/lib64/libgcs-ipc.so|008d8690fe30116526a91a90fde909f9f1f8a916
+vendor/lib64/libgcs-osal.so|c69df09e6521df8ae922893ec758014e978a52f7
+vendor/lib64/libgcs.so|9018cdd801432804794c1371873d4f50942d1027
+vendor/lib64/liblistenjni.so|eaef51960b85d8d6904d268f96e56508fe9aa0c6
+vendor/lib64/liblistensoundmodel2.so|dfbfb43e255a474d1cf0cecb14b10ad63ac126c2
 
 # Media - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 vendor/lib/libI420colorconvert.so|0dfd4d0e49f4250e98e781483048a296a679e05e
@@ -714,6 +724,10 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|313677dd28de6f6b2a5cf8b136d8ce0723bb5a65
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b478f9ba87abd265ac15a154ab7412fed5839664
+
+# Voice - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+vendor/lib/vendor.qti.voiceprint@1.0.so|3d867b027ce1ba4ee1a2861fab32eb6a1d7f7720
+vendor/lib64/vendor.qti.voiceprint@1.0.so|5783ba83cad9bebb59e168b548f350b4aa65f676
 
 # Widevine - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|e130b8f1c8d46d8a185b00cba5ff8a2a871ee94c
