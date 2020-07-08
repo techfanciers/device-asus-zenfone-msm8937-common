@@ -354,6 +354,14 @@ vendor/lib64/libOmxWmaDec.so|32e1b9c72d0b0a8b74978e1687b701e18030d68a
 -vendor/lib64/libgpustats.so|a899ae72983277442cdacf8f43271986c91ce710
 vendor/lib64/libmm-color-convertor.so|d3539eb5a6a986f8ba81bac9cbf7b34872b12f1a
 
+# Media OMX - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+-vendor/lib/libOmxSwVdec.so|30a6eeebd47fbe17aecc92af7fd3dee8848e8bc1
+-vendor/lib/libOmxSwVencMpeg4.so|eda2bef01841815a7a165ea2280c88cf0e080045
+-vendor/lib/libMpeg4SwEncoder.so|4724c498d1949dbcd19d73b8ef7279d49f09b0d9
+-vendor/lib64/libOmxSwVdec.so|aefb3088cc36f94d4948836c43e7f1d1b56e4625
+-vendor/lib64/libOmxSwVencMpeg4.so|bdbf3f2855a25ee6276072b6be197ddb1989160e
+-vendor/lib64/libMpeg4SwEncoder.so|37bd495b58e580b4cb3e30b6ae1cb0a26758f06d
+
 # Modem - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 vendor/lib/libwms.so|84dd1579d1392f400fc68ffdf3545fdb058d04d7
 vendor/lib64/libwms.so|ed3cc676c0951a462e81135159c53e4c79ed2bbd
