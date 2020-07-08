@@ -345,6 +345,10 @@ vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
 vendor/lib64/libsdmextension.so|47b7fcfb790df4417654c566af1a8a74d4bf3e2f
 vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
 
+# Graphics (Vulkan) - from Panther - QKQ1.191008.001-00WW_2_290
+vendor/lib/hw/vulkan.msm8937.so|b1f71dd1550e9b0fc63141f01e662d47d3d5284e
+vendor/lib64/hw/vulkan.msm8937.so|dff8ac33c9106c670ad07cbd23b218b32a050ff9
+
 # Graphics firmware - from X00P - PPR1.180610.009-16.00.1906.411-20190712
 vendor/firmware/a530v1_pfp.fw|0864291b99bed712edfcffa94be7b4595d3af306
 vendor/firmware/a530v1_pm4.fw|6a82a4fb4035fa2a933c1a26b5535d7ec7c0ac4c
