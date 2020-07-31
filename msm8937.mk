@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+# Coverted for Evolution X
+
 $(call inherit-product, vendor/asus/msm8937-common/msm8937-common-vendor.mk)
 VENDOR_PATH = device/asus/msm8937-common
 # Overlays
