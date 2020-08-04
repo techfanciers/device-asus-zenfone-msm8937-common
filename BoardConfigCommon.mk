@@ -15,11 +15,8 @@
 #
 
 VENDOR_PATH := device/asus/msm8937-common
-COMMON_PATH := device/asus/msm8937-common
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_X00R
-TARGET_RECOVERY_DEVICE_MODULES := libinit_X00R
 
 
 # Architecture

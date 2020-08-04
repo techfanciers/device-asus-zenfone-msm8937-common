@@ -20,11 +20,11 @@ $(call inherit-product, vendor/asus/msm8937-common/msm8937-common-vendor.mk)
 VENDOR_PATH = device/asus/msm8937-common
 
 # Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-evolution
+#DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-evolution
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
